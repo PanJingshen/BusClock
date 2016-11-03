@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_addclock_comon"
+        android:title="添加常用路线" />
+    <item
+        android:id="@+id/action_addclock_quick"
+        android:title="便捷查询" />
+</menu>
