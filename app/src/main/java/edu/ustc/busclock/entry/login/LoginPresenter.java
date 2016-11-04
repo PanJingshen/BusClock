@@ -1,4 +1,4 @@
-package edu.ustc.busclock.login;
+package edu.ustc.busclock.entry.login;
 
 import edu.ustc.busclock.model.Dao.DaoImpl.UserDao;
 import edu.ustc.busclock.model.Dao.IUser;

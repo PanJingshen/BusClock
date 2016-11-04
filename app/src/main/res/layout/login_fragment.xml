@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="edu.ustc.busclock.login.LoginFragment">
+    tools:context="edu.ustc.busclock.entry.login.LoginFragment">
 
 
     <EditText

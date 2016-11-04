@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BusClock.iml" filepath="$PROJECT_DIR$/BusClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LRecyclerview_library/LRecyclerview_library.iml" filepath="$PROJECT_DIR$/LRecyclerview_library/LRecyclerview_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwipeMenuListView/SwipeMenuListView.iml" filepath="$PROJECT_DIR$/SwipeMenuListView/SwipeMenuListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/slidingmenu-master/slidingmenu-master.iml" filepath="$PROJECT_DIR$/slidingmenu-master/slidingmenu-master.iml" />
     </modules>
   </component>
 </project>

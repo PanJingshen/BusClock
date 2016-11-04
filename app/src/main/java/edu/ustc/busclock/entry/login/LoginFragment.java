@@ -1,4 +1,4 @@
-package edu.ustc.busclock.login;
+package edu.ustc.busclock.entry.login;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import edu.ustc.busclock.R;
+import edu.ustc.busclock.entry.register.RegisterContract;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -45,8 +46,16 @@ public class LoginFragment extends Fragment implements LoginContract.View {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println(mPresenter);
+//                System.out.println(mPresenter);
                 mPresenter.attempLogin();
+            }
+        });
+
+
+        btn_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
 
@@ -86,6 +95,12 @@ public class LoginFragment extends Fragment implements LoginContract.View {
     public void movetoMainActivity() {
         Intent intent = new Intent("edu.ustc.busclock.intent.action.MAIN");
         startActivity(intent);
+    }
+
+    @Override
+    public void movetoRegisterView(RegisterContract.View registerfragment) {
+        getActivity().getSupportFragmentManager().beginTransaction()
+                .replace(R.id.contentFrame, (Fragment) registerfragment).commit();
     }
 
     @Override

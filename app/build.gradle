@@ -29,5 +29,5 @@ dependencies {
     compile 'com.android.support:design:24.2.1'
     testCompile 'junit:junit:4.12'
     compile 'com.android.support.test.espresso:espresso-core:2.2.2'
-    compile project(':slidingmenu-master')
+    compile project(':LRecyclerview_library')
 }
